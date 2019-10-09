@@ -29,14 +29,14 @@ import CourseSettings from './CourseSettings'
 import '@instructure/canvas-theme'
 import {Heading} from '@instructure/ui-elements'
 
-class App extends Component() {
+class App extends Component {
     render() {
 
         return (
             <div>
+                <Heading>Now using Instructure-UI components with default Canvas theme!</Heading>
                 <Banner/>
                 <CourseSettings/>
-                <Heading>Now using Instructure-UI components with default Canvas theme!</Heading>
             </div>
         )
     }
